@@ -6,10 +6,10 @@ import java.util.Date;
 
 public class Task extends DBean {
 
-    String title;
-    String description;
-    Date dateToComplete;
-    Date created;
-    Date updated;
+    private String title;
+    private String description;
+    private Date dateToComplete;
+    private Date created;
+    private Date updated;
 
 }
